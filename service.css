@@ -1,0 +1,36 @@
+.servicetxt h4 {
+    color: wheat;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: rgba(143, 60, 122, 0.199);
+}
+
+.servicetxt p {
+    color: whitesmoke;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    background-color: rgba(143, 60, 122, 0.199);
+}
+
+.serviceimg {
+    width: 600px;
+    margin-top: 300px;
+}
+
+#serviceid {
+    display: flex;
+}
+
+.servicetxt {
+    margin: 30px 50px;
+    padding: 30px 50px;
+}

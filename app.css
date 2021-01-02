@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainheader {
+    background-color: rgb(241, 242, 245);
+}
+
+.hcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hcontent a {
+    text-decoration: none;
+}
+
+.hcontent img {
+    width: 150px;
+    padding-left: 8px;
+    margin-left: 20px;
+}
+
+.hcontent .loginbtn {
+    padding: 10px 10px;
+    margin-right: 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.hcontent .loginbtn a {
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 100px 100px; */
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.bodytxt {
+    padding-left: 20px;
+    margin-top: 120px;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.bodytxt .appbtn {
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.appbtn a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.topside1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topside1 .bodyimg img {
+    width: 400px;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.appform {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+iframe {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.external {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mailtxt {
+    margin-left: 18px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.mailtxt a {
+    color: whitesmoke;
+}
+
+.iconmake {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconmake img {
+    width: 15px;
+    height: 15px;
+}
